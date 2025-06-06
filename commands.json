@@ -1,0 +1,20 @@
+[
+  {
+    "category": "Система",
+    "name": "Обновление системы",
+    "command": "sudo apt update && sudo apt upgrade -y",
+    "description": "Обновляет список пакетов и устанавливает обновления"
+  },
+  {
+    "category": "Сеть",
+    "name": "Показать IP адреса",
+    "command": "ip a",
+    "description": "Показ интерфейсов и IP адресов"
+  },
+  {
+    "category": "Процессы",
+    "name": "Поиск процесса",
+    "command": "ps aux | grep <имя>",
+    "description": "Поиск процесса по имени"
+  }
+]
